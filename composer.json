@@ -1,8 +1,8 @@
 {
-    "name": "laravel-notification-channels/onewaysms",
+    "name": "laravel-lib/onewaysms",
     "description": "OneWaySMS Notifications channel for Laravel",
     "keywords": ["laravel", "notifications", "onewaysms", "message", "sms", "malaysia"],
-    "homepage": "https://github.com/laravel-notification-channels/onewaysms",
+    "homepage": "https://github.com/laravel-lib/onewaysms",
     "license": "MIT",
     "authors": [
         {
@@ -13,13 +13,13 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": "^7.4 || ^8.0",
         "guzzlehttp/guzzle": "^6.4 || ^7.0",
-        "illuminate/notifications": "5.5 - 5.8 || ~6.0 || ~7.0 || ~8.0",
-        "illuminate/support": "5.5 - 5.8 || ~6.0 || ~7.0 || ~8.0"
+        "illuminate/notifications": "6 - 9",
+        "illuminate/support": "6 - 9"
     },
     "require-dev": {
-        "mockery/mockery": "^1.0",
+        "mockery/mockery": "^1.4",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {

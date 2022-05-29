@@ -8,7 +8,7 @@
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/onewaysms/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/onewaysms/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/onewaysms.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/onewaysms)
 
-📲  This package makes it easy to send notifications (SMS) using [OneWaySMS](https://www.onewaysms.com.my/) with Laravel 5.5+, 6.x, 7.x and 8.x
+📲  This package makes it easy to send notifications (SMS) using [OneWaySMS](https://www.onewaysms.com.my/) with Laravel 6.x, 7.x, 8.x and 9.x
 
 ## Contents
 
@@ -29,7 +29,7 @@
 
 You can install this package via composer:
 ``` bash
-composer require laravel-notification-channels/onewaysms
+composer require laravel-lib/onewaysms
 ```
 
 ### Setting up the OneWaySMS service
